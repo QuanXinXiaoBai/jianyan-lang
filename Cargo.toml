@@ -1,0 +1,9 @@
+[package]
+name = "jianyan"
+version = "0.3.0"
+edition = "2024"
+description = "【简言】中文教学编程语言的编译器原型：后端输出 NASM x86-64 Windows 汇编，nasm + GoLink 工具链"
+license = "MIT"
+
+# 零第三方依赖：全部使用 Rust 标准库，保证便携与离线可构建。
+[dependencies]
